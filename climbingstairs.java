@@ -6,8 +6,8 @@ public class climbingstairs {
             return 1;
         if (n == 2)
             return 2;
-        int a = 1, b = 2;
-        for (int i = 3; i <= n; i++) {
+        int a = 0, b = 1;
+        for (int i = 2; i <= n; i++) {
             int temp = a + b;
             a = b;
             b = temp;
