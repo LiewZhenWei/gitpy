@@ -1,0 +1,10 @@
+enter=input()
+enter_length=len(enter)
+
+print('           {}'.format('_'*enter_length))
+print('         < {} >'.format(enter))
+print('           {}'.format('-'*enter_length))
+print('        /')
+print(' /\_/\ /')
+print('( o.o )')
+print(' > ^ <')
